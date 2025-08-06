@@ -1,14 +1,4 @@
----
-title: Fine-Tuned RAG Framework For Code Analysis
-colorFrom: gray
-colorTo: gray
-sdk: gradio
-sdk_version: 5.41.1
-app_file: app.py
-pinned: false
-license: mit
-short_description: RAG + LoRA Fine-Tuning for Code Analysis
----
+Live Demo: https://huggingface.co/spaces/SpencerCPurdy/Fine-Tuned_RAG_Framework_for_Code_Analysis
 
 # Fine-Tuned RAG Framework for Code Analysis
 
