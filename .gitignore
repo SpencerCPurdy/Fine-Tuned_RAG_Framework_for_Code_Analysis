@@ -1,0 +1,53 @@
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual Environments
+# It is standard practice to not commit virtual environment folders
+venv/
+env/
+.venv/
+.env/
+
+# Environment variables
+# Never commit files containing secrets like API keys
+.env
+.env.*
+*.env
+
+# Application-generated files
+# This directory is created by app.py to store the fine-tuned model
+/finetuned_code_model/
+
+# Jupyter Notebook checkpoints
+# Good practice for projects involving data science libraries
+.ipynb_checkpoints/
+
+# Log files
+*.log
+logs/
+
+# IDE and editor configuration files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Operating System generated files
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
